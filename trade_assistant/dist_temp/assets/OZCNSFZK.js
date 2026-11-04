@@ -1,0 +1,1 @@
+import{D as o}from"./CXmVUvam.js";import{b$ as a,eQ as e,bF as n}from"./IF6bhLVb.js";import"./CDnBFc_b.js";const m=a({__name:"download_board",setup(r){return(t,p)=>(e(),n(o,{variant:"pane"}))}});export{m as default};

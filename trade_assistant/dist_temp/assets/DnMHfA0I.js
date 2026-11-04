@@ -1,0 +1,1 @@
+import{al as o,eQ as s,bH as t,bE as a}from"./IF6bhLVb.js";import"./CDnBFc_b.js";const r={},c={class:"board-section"};function d(n,e){return s(),t("div",c,[...e[0]||(e[0]=[a("div",{class:"empty-tip"}," 普通开仓当前没有额外参数，计划会直接使用上方的基础开仓和风控设置。 ",-1)])])}const l=o(r,[["render",d],["__scopeId","data-v-d08a42dc"]]);export{l as default};

@@ -1,0 +1,1 @@
+function n(r){const e=globalThis?.electronAPI;if(!e||typeof e.setServer!="function"||!r)return Promise.resolve();let t;try{t=Promise.resolve(e.setServer(r))}catch{return Promise.resolve()}const o=t.then(()=>{},()=>{});return Promise.race([o,new Promise(s=>setTimeout(s,1500))])}export{n as s};

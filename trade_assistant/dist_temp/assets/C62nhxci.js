@@ -1,0 +1,1 @@
+const d="edit";function c(i){return String(i?.id??"").trim()}function e(i,n={}){if(!n.editing)return i||{};const t={...i||{}},r=String(n.id??"").trim()||c(t);return r&&(t.id=r),t.action=d,t}export{e as w};

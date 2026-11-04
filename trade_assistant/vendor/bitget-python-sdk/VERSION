@@ -1,0 +1,22 @@
+来源:      https://github.com/BitgetLimited/v3-bitget-api-sdk
+分支:      master
+commit:    9e6ee012ded8f4430ad44243e33829f571b1adb5
+提交时间:  2026-08-27T14:11:32Z
+路径:      bitget-python-sdk-api/
+拉取日期:  2026-10-01
+许可:      ⚠️ 仓库无 LICENSE（GitHub API: license = None）
+
+保留内容:  bitget/（完整包，含 v3/、v2/、ws/）、README_EN.md
+已剔除:    __pycache__/、*.pyc、其他语言 SDK（java/node/go/php）、api-rsa-generator/
+
+关键说明
+  - `bitget/v3/` 于 2026-06-03 提交（PR f_dev_202603_uta_sdk 于 2026-07-14 合并）
+    → 覆盖 UTA（统一账户）REST，共 11 个模块
+  - ⚠️ **本 SDK 不可作为运行时依赖**（见 §2.3.6 的六个问题）：
+      ① 无 License
+      ② 每个响应都 print()（client.py 的 _request）
+      ③ requests 无 timeout
+      ④ 不支持模拟盘（consts.py 无 paptrading）
+      ⑤ WS 客户端是 v2 格式（consts.py: CONTRACT_WS_URL = wss://ws.bitget.com/v2/ws/private）
+      ⑥ WS 登录时间戳用秒（ws/bitget_ws_client.py），与 REST 的毫秒不一致
+  - 本副本**仅作参考上下文**，用于查端点常量与参数

@@ -1,0 +1,1 @@
+import{D as e}from"./CXmVUvam.js";import{b$ as a,hd as o,eQ as t,bF as n}from"./IF6bhLVb.js";import"./CDnBFc_b.js";const d=a({__name:"download",setup(r){return o({title:"下载客户端 — 小二助手"}),(s,p)=>(t(),n(e,{variant:"page"}))}});export{d as default};

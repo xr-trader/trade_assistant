@@ -1,0 +1,1 @@
+import{i as s}from"./BJ1Wedvg.js";const t=["risk","risk_percent"];function o(r,n,e=!0){return s(n)?e?t.includes(String(r||"")):!0:!1}function u(r,n){return!r&&n==="yes"?"no":null}export{u as n,o as s};

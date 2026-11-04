@@ -1,0 +1,22 @@
+来源:      https://github.com/okxapi/python-okx
+分支:      master
+commit:    06bb8a9916c0dd133902f57c923abc3c6605c0fe
+提交时间:  2026-09-07T02:28:49Z
+版本:      0.4.4（见 CHANGELOG.md）
+拉取日期:  2026-10-01
+许可:      见仓库 README/LICENSE（本副本仅作开发参考）
+
+保留内容:  okx/（完整包）、CHANGELOG.md、README.md、setup.py
+已剔除:    example/、test/、requirements*.txt、.github/
+
+⚠️ 与项目内 exchange/okx/ 的差异（重要）
+  项目内那一份是**更早的发行版**，与本副本同源但版本不同：
+
+  | 项 | 项目内 exchange/okx/ | 本副本（官方 0.4.4） |
+  |---|---|---|
+  | 文件命名 | `Trade_api.py` / `Market_api.py` / `Account_api.py` … | `Trade.py` / `MarketData.py` / `Account.py` … |
+  | 基类名 | `Client` | `OkxClient` |
+  | 端点常量 | 255 条 | 270 条（更全） |
+  | 类名与方法签名 | `class MarketAPI` / `get_ticker(self, instId)` … | **完全一致** ✅ |
+
+  结论：**端点常量与方法签名可互相参照**；文件命名与基类名的差异属结构性重构，不影响查表用途。

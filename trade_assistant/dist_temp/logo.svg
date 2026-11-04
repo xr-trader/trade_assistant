@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160">
+  <!-- ◆ 菱形图标 -->
+  <path d="M24 80 L48 56 L72 80 L48 104 Z" fill="#0891b2"/>
+  <!-- "小二" 中文 -->
+  <text x="92" y="78" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="68" font-weight="700" fill="#dce7f5" dominant-baseline="middle" letter-spacing="4">小二</text>
+  <!-- 分隔竖线 -->
+  <line x1="232" y1="52" x2="232" y2="108" stroke="rgba(148,163,184,0.2)" stroke-width="1.5"/>
+  <!-- "XiaoEr" 英文 -->
+  <text x="252" y="72" font-family="'Plus Jakarta Sans', -apple-system, 'Segoe UI', sans-serif" font-size="32" font-weight="600" fill="#0891b2" dominant-baseline="middle" letter-spacing="1.5">XiaoEr</text>
+  <!-- "Trading Assistant" 副标题 -->
+  <text x="252" y="102" font-family="'Plus Jakarta Sans', -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="400" fill="#94a3b8" dominant-baseline="middle" letter-spacing="3">TRADING ASSISTANT</text>
+</svg>

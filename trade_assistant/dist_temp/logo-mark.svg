@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- ◆ 菱形图标 — 独立 app mark -->
+  <path d="M24 8 L40 24 L24 40 L8 24 Z" fill="#0891b2"/>
+  <!-- 内切小菱形（增加层次） -->
+  <path d="M24 16 L32 24 L24 32 L16 24 Z" fill="#05080f" opacity="0.35"/>
+</svg>
