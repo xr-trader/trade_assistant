@@ -27,7 +27,7 @@
 ## 安装
 
 ```bash
-curl -fsSL https://github.com/liwubin2009/trade_assistant/releases/latest/download/install.sh -o /tmp/install_trade.sh
+curl -fsSL https://github.com/xr-trader/trade_assistant/releases/latest/download/install.sh -o /tmp/install_trade.sh
 sudo bash /tmp/install_trade.sh
 ```
 
@@ -40,7 +40,7 @@ sudo bash /tmp/install_trade.sh
 也可以在命令行：
 
 ```bash
-curl -fsSL https://github.com/liwubin2009/trade_assistant/releases/latest/download/upgrade.sh -o /tmp/u.sh
+curl -fsSL https://github.com/xr-trader/trade_assistant/releases/latest/download/upgrade.sh -o /tmp/u.sh
 sudo bash /tmp/u.sh              # 升级（已是最新版本会自动跳过）
 sudo bash /tmp/u.sh --check      # 只看有没有新版本，不升级
 sudo bash /tmp/u.sh --rollback   # 回滚到上一次升级前的备份
@@ -61,4 +61,4 @@ sudo bash /tmp/u.sh --rollback   # 回滚到上一次升级前的备份
 
 ## 版本与下载
 
-最新版本、更新说明都在 [Releases](https://github.com/liwubin2009/trade_assistant/releases)。
+最新版本、更新说明都在 [Releases](https://github.com/xr-trader/trade_assistant/releases)。
